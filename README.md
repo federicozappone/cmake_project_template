@@ -1,5 +1,7 @@
 # CMake C++ Project Template with Unit Testing and Doxygen
 
+[![C/C++ CI](https://github.com/federicozappone/cmake_project_template/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/federicozappone/cmake_project_template/actions/workflows/c-cpp.yml)
+
 #### Install dependencies
 
 ```bash
