@@ -20,4 +20,8 @@ clean:
 install: build
 	cd build && make install
 
-.PHONY: all build build_dir clean
+# Run unit tests from the "bin" directory
+check: build
+	for test in bin/utest_*; do $$test; done
+
+.PHONY: all build build_dir clean install check

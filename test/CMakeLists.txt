@@ -8,7 +8,7 @@ include_directories(lib/googletest/googletest/include)
 
 set(SOURCE_FILES main.cpp src/divider_tests.cpp)
 
-add_executable(divider_tests ${SOURCE_FILES})
+add_executable(utest_divider ${SOURCE_FILES})
 target_link_libraries(utest_divider division gtest)
 install(TARGETS utest_divider DESTINATION bin)
 
