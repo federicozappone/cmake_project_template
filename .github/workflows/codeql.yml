@@ -11,6 +11,9 @@ on:
     branches: [main]
     paths-ignore:
       - 'doc/**'
+      - 'test/**'
+      - 'include/**'
+      - 'build/**'
       - '**.md'
       - '.github/**'
 
