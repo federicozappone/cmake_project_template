@@ -1,20 +1,40 @@
 # CMake C++ Project Template with Unit Testing and Doxygen
 
+#### Install dependencies
+
+```bash
+sudo apt update
+sudo apt install build-essential git doxygen \
+                 apt-transport-https ca-certificates gnupg \
+                 software-properties-common wget
+```
+
+#### Install latest CMake version
+
+```bash
+wget -qO - https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -
+```
+
+```bash
+sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ focal main'
+sudo apt update
+```
+
+```bash
+sudo apt install cmake
+```
+
 #### Building
 
 ```bash
-❯ rm -rf build && mkdir build
-❯ git submodule init && git submodule update
-❯ cd build
-❯ cmake ..
-❯ make && make install
-❯ cd ..
+make
+make install
 ```
 
 #### Running the tests
 
 ```bash
-❯ bin/divider_tests
+❯ bin/utest_divider
 [==========] Running 5 tests from 1 test case.
 [----------] Global test environment set-up.
 [----------] 5 tests from DividerTest
