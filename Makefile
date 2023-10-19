@@ -22,6 +22,7 @@ install: build
 
 # Run unit tests from the "bin" directory
 check: build
-	for test in bin/utest_*; do $$test --gtest_output="xml:$${test#bin/}_output.xml"; done
+	# for test in bin/utest_*; do $$test --gtest_output="xml:$${test#bin/}_output.xml"; done
+	for test in bin/utest_*; do $$test; done
 
 .PHONY: all build build_dir clean install check
