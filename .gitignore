@@ -53,4 +53,6 @@ build/**/*
 include/*
 lib/*
 bin/*
+doc/html/
+doc/latex/
 test/test_runner
