@@ -1,4 +1,4 @@
-# CMake C++ Project Template with Google-Test Unit Testing Library
+# CMake C++ Project Template with Unit Testing and Doxygen
 
 #### Building
 
