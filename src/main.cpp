@@ -1,6 +1,7 @@
 #include <division.h>
 #include <iostream>
 
+
 using namespace std;
 
 static const char* const USAGE =
@@ -36,3 +37,4 @@ int main(int argc, const char* argv[])
   }
   return 0;
 }
+
