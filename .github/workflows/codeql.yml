@@ -3,9 +3,6 @@
 
 name: "Coding Standard Scan"
 
-paths:
-  - src
-
 on:
   push:
     branches: [main]
