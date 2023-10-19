@@ -57,8 +57,8 @@ endif (DOXYGEN_FOUND)
 # include_directories(${Eigen3_SOURCE_DIR})
 
 
-include_directories(${DIVISIBLE_INSTALL_INCLUDE_DIR})
-include_directories(${DIVISION_HEADERS_DIR})
+include_directories(${INSTALL_INCLUDE_DIR})
+include_directories(${HEADERS_DIR})
 
 add_subdirectory(src)
 add_subdirectory(test)

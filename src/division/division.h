@@ -14,7 +14,6 @@ public:
   virtual const char* what() const throw() { return DIVISION_BY_ZERO_MESSAGE; }
 };
 
-
 /**
  * Fraction
  *
@@ -34,7 +33,7 @@ struct Fraction
 struct DivisionResult
 {
   long long division;
-  long long remainder;
+  long long remainder;  //!< stores the number of variables
 
   friend bool operator==(const DivisionResult& lhs, const DivisionResult& rhs)
   {
