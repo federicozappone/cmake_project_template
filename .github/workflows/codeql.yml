@@ -6,8 +6,12 @@ name: "Coding Standard Scan"
 on:
   push:
     branches: [main]
+    path:
+      - src/
   pull_request:
     branches: [main]
+    path:
+      - src/
 
 jobs:
   analyze:

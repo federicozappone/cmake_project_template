@@ -10,9 +10,3 @@ query-filters:
   - exclude:
       problem.severity:
         - recommendation
-
-paths-ignore:
-  - build/
-  - test/
-  - include/
-  - doc/
