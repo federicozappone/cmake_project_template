@@ -11,5 +11,8 @@ query-filters:
       problem.severity:
         - recommendation
 
-paths:
-  - src
+paths-ignore:
+  - build/
+  - test/
+  - include/
+  - doc/

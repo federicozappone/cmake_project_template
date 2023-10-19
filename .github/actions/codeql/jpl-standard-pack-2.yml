@@ -19,5 +19,8 @@ query-filters:
       id:
         - cpp/jpl-c/basic-int-types
 
-paths:
-  - src
+paths-ignore:
+  - build/
+  - test/
+  - include/
+  - doc/
