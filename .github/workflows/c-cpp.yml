@@ -21,3 +21,8 @@ jobs:
       run: make install
     - name: make install
       run: make check
+    - name: test summary
+      uses: test-summary/action@v2
+      with:
+        paths: "utest_*.xml"
+      if: always()

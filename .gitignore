@@ -55,3 +55,4 @@ bin/*
 doc/html/
 doc/latex/
 test/test_runner
+utest_*.xml
