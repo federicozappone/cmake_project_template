@@ -2,9 +2,9 @@ name: "CodeQL AUTOSAR Coding Standard"
 
 disable-default-queries: true
 
-packs:
-  # Source of the query pack is https://github.com/github/codeql/tree/main/cpp/ql/src/Power%20of%2010
-  - "github/codeql-coding-standards/cpp/autosar/src@main"
+queries:
+  packs:
+  - github/codeql-coding-standards/cpp/autosar/src/codeql-suites/autosar-default.qls@main
 
 query-filters:
   - exclude:
