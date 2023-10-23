@@ -1,0 +1,12 @@
+name: "CodeQL Power of 10 Coding Standard"
+
+disable-default-queries: true
+
+packs:
+  # Source of the query pack is https://github.com/github/codeql/tree/main/cpp/ql/src/Power%20of%2010
+  - codeql/cpp-queries:Power%20of%2010
+
+query-filters:
+  - exclude:
+      problem.severity:
+        - recommendation
