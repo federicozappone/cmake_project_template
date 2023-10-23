@@ -22,7 +22,11 @@ jobs:
       fail-fast: false
       matrix:
         language: ['cpp']
-        config-file: ['jpl-standard-pack-1.yml', 'jpl-standard-pack-2.yml', 'jpl-standard-pack-3.yml', 'power-of-10.yml']
+        config-file: ['jpl-standard-pack-1.yml',
+                      'jpl-standard-pack-2.yml',
+                      'jpl-standard-pack-3.yml',
+                      'power-of-10.yml',
+                      'autosar.yml']
 
     steps:
     - name: checkout repository
