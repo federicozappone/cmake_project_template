@@ -1,6 +1,6 @@
 # CMake C++ Project Template with Unit Testing and Doxygen
 
-[![C/C++ CI](https://github.com/federicozappone/cmake_project_template/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/federicozappone/cmake_project_template/actions/workflows/c-cpp.yml)
+[![C/C++ CI](https://github.com/federicozappone/cmake_project_template/actions/workflows/build.yml/badge.svg)](https://github.com/federicozappone/cmake_project_template/actions/workflows/buildc-cpp.yml)
 [![Coding Standard Scan](https://github.com/federicozappone/cmake_project_template/actions/workflows/codeql.yml/badge.svg)](https://github.com/federicozappone/cmake_project_template/actions/workflows/codeql.yml)
 #### Install dependencies
 
